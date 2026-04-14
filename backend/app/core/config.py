@@ -19,5 +19,6 @@ class Settings(BaseSettings):
     POSTGRES_DB: str
     POSTGRES_HOST: str
     POSTGRES_POST: str
+    DATABASE_URL: str
     
 settings = Settings()
